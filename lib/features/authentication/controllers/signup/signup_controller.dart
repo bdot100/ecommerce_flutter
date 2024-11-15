@@ -92,7 +92,7 @@ class SignupController extends GetxController {
       // Remove Loader
       TFullScreenLoader.stopLoading();
       // Show some generic error to the user
-      TLoaders.errorSnackBar(title: 'Oh Snap!', message: e.toString());
+      TLoaders.errorSnackBar(title: 'Oh Snap! here', message: e.toString());
     }
   }
 }
